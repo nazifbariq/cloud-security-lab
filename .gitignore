@@ -1,0 +1,13 @@
+# Mengunci semua file state lokal
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Mengunci file variabel yang berisi password/IP rahasia
+*.tfvars
+*.tfvars.json
+
+# Mengunci kunci privat SSH (Sangat penting!)
+*.pem
+*.key
+security-lab-key
